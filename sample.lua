@@ -1,4 +1,5 @@
-require "glut"
+glut = require "glut"
+gl   = require "gl"
 
 function find_if(items, cond)
   for key, item in pairs(items) do
